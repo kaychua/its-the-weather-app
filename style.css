@@ -1,0 +1,157 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  padding: 30px 40px;
+  border-radius: 20px;
+}
+
+#searchCity {
+  margin: 0 auto 30px;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: 4px 4px 12px rgba(172, 204, 231, 0.4);
+  transition: all 180ms ease-in;
+}
+
+#searchCity:focus-visible {
+  outline: none;
+  border: 1px solid rgba(222, 223, 245, 0.5);
+  box-shadow: 4px 4px 10px rgba(241, 168, 229, 0.4);
+  color: rgb(112, 115, 177);
+}
+
+h1 {
+  font-weight: semi-bold;
+  font-size: 32px;
+  color: rgb(112, 115, 177);
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(112, 115, 177);
+}
+
+h4,
+p {
+  text-align: center;
+  color: rgb(112, 115, 177);
+}
+
+h4 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.windRain {
+  color: #283a47;
+  border: none;
+  margin: 10px 5px 0px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 4px 4px 12px rgba(172, 204, 231, 0.4);
+  padding: 5px 2px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.windRain p {
+  font-weight: 200;
+  font-size: 12px;
+  color: #5d809b;
+}
+
+.weatherAlert {
+  text-align: right;
+  font-weight: 500;
+  font-size: 37px;
+  margin: 10px auto;
+  padding: 0 0 0 35%;
+  color: rgb(112, 115, 177);
+}
+
+.forecast {
+  display: block;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 12px rgba(172, 204, 231, 0.4);
+  padding: 10px 5px;
+  margin: 30px auto;
+}
+
+#currentTemp {
+  font-size: 50px;
+  font-weight: 200;
+  word-spacing: -10px;
+  margin: 0 auto 3px;
+  color: rgb(112, 115, 177);
+}
+
+.fas {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px auto 15px;
+  color: rgb(195, 197, 252);
+}
+
+#searchButton {
+  background: rgb(255, 229, 251);
+  border: none;
+  font-size: 14px;
+  color: rgb(133, 135, 185);
+  padding: 8px;
+  border-radius: 20px;
+  transition: all 150ms ease-in;
+  box-shadow: 4px 4px 12px rgba(172, 204, 231, 0.4);
+}
+
+#currentUpdate {
+  background: rgb(255, 255, 255, 50%);
+  border: none;
+  font-size: 14px;
+  color: rgb(133, 135, 185);
+  padding: 8px;
+  border-radius: 20px;
+  transition: all 150ms ease-in;
+  box-shadow: 4px 4px 12px rgba(172, 204, 231, 0.4);
+}
+
+#searchButton:hover,
+#currentUpdate:hover {
+  background: rgb(207, 208, 253);
+  color: #ffffff;
+}
+
+.degreeUnit,
+.slash {
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(133, 135, 185);
+  transition: all 180ms ease-in;
+  position: relative;
+  top: -20px;
+}
+
+a.degreeUnit:hover {
+  color: rgb(241, 168, 229);
+}
