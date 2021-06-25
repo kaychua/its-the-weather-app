@@ -156,6 +156,10 @@ a.degreeUnit:hover {
   color: rgb(241, 168, 229);
 }
 
-footer a{
-  color:  color: rgb(133, 135, 185);
+footer {
+  color: rgb(112, 115, 177);
+}
+
+footer a {
+  color: rgb(133, 135, 185);
 }
