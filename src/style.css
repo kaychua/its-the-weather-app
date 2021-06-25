@@ -161,5 +161,9 @@ footer {
 }
 
 footer a {
+  color: rgb(255, 229, 251);
+}
+
+footer a:hover {
   color: rgb(133, 135, 185);
 }
